@@ -2,8 +2,10 @@ import java.util.*;
 
 class Leaky
 { 
-    
+    //TO create a object for Scanner class
 	Scanner s=new Scanner(System.in);
+	
+    //To create a object for Arraylist 
     ArrayList<Integer> al1 = new ArrayList<Integer>();
 
     ArrayList<Integer> al2 = new ArrayList<Integer>();
@@ -11,6 +13,8 @@ class Leaky
    
     void Input(int limit)
     { 
+	    //to get input some range of array list
+	    
         int i,element;
         System.out.print("Enter the packet Value:\n");
         for(i=0;i<limit;i++)
@@ -38,7 +42,7 @@ class Leaky
     
     void Pocket_Delivery(int limit,int out)
     { 
-        
+        // to check the condition of outlet
          
         for(int i=0;i<limit;i++)
         { 
